@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&family=Engagement&family=Inclusive+Sans&family=Kavivanar&family=MuseoModerno:ital@1&family=Poppins:wght@600&family=Roboto&family=Roboto+Mono:wght@700&family=Rubik+Vinyl&family=Shalimar&family=Ubuntu:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111;
+}
+
+.block {
+    background-color: #fff;
+    padding: 40px;
+    font-size: 45px;
+    border-radius: 25px;
+}
+
+.all-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text {
+    color: #fff;
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 31px;
+}
+
+.btn-full, .btn-date, .btn-time {
+    margin: 10px;
+    padding: 13px;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 200ms;
+}
+
+.btn-full {
+    background-color:#db2a2a;
+}
+
+.btn-date {
+    background-color: #3abb29;
+}
+
+.btn-time {
+    background-color: #2a4ddb;
+}
+
+.btn-full:hover, .btn-date:hover, .btn-time:hover {
+    background-color: #111;
+} 
+
+.btn-full:active, .btn-date:active, .btn-time:active {
+    cursor: none;
+    background-color: #333;
+}
